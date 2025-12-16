@@ -1,7 +1,7 @@
 const FetchButton = ({ fetchJoke }) => {
   return (
     <button className="fetch-button" onClick={fetchJoke}>
-      Generate New Joke
+      Get a New Joke
     </button>
   )
 }
